@@ -15,7 +15,6 @@ type Game struct {
 	currentPiece Piece
 	score        int
 	gameOver     bool
-	ticker       *time.Ticker
 	style        GameStyle
 	selecting    bool // true when selecting style
 }
